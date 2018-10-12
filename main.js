@@ -16,12 +16,12 @@ container.forEach(function(element){
 });
 
 var boton= document.getElementById("btn-click");
-    boton.onclick=function(evt){
+boton.onclick=function(evt){
     alert("Hola Mundo");
-    };
+};
 
 var btnCopy=document.getElementById("btnCopy");
 btnCopy.onclick =function(evt){
-    let msj=document.getELementById('textMsj').value;
+    let msj = document.getELementById('textMsj').value;
     document.getElementById('showMsj').innerText=msj;
 }

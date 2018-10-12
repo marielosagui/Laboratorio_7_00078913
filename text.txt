@@ -1,0 +1,36 @@
+Usando "document.getElementById"
+    1)¿Qué es lo que contiene la variable container?
+    	Contiene al elemeno que se le a enviado, en este caso ocon el elemento id=C1
+   
+    2)¿Qué visualiza en el navegador?
+    	Se coloca sobre el elemento con id =c1 el texto escrito : 'Hola Mundo'
+
+    3) ¿Qué es lo que se muestra en pantalla?
+    	se muestra como el elemento con id=c1 es mas grande que los demas elementos y contiene una caja de  texto dentro de el
+
+    4)¿Cuál es la diferencia entre las propiedades innerHtml e innerText?
+	Innerhtml: el contenido que va a agregar lo obtiene en formato html
+	InnerText el contenido esta referido a texto, lo ingresado ser mostrarlo tal y como se escribio
+
+
+Usando "document.getElementsByClassName"
+
+  
+    5)¿Qué almacena containers?
+    la variable container almacena el arreglo c2
+
+    6)¿Qué se mostrará en pantalla?
+    cambia el color de fondo de todoslos elementos del arreglo c2
+    
+    7)¿Qué se mostrará en pantalla?
+    muestra en cada uno de los elementos del arreglo una caja de texto
+   
+    8)¿Cuál es la diferencia entre las propiedas innerText e innerHTML?
+    la diferenia es la forma en como se accede ;innertext modifica el texto mientras que innerhtml devuelve en texto pero crea una caja de texto
+
+Eventos
+   9) ¿Qué es lo que sucedera después de darle click al botón?
+   se mostrara y obtendra el id del contenedor y se le asigna el valor de la caja de texto es decir mostrara el texto digitado.
+
+    10)¿Cuál es la difernecia entre value e innerText? 
+    value obtiene el texto mientras que innertext modifica el texto
